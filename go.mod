@@ -1,4 +1,4 @@
-module github.com/caddy-dns/katapult
+module github.com/deanpcmad/katapultdns
 
 go 1.21.0
 
@@ -6,7 +6,7 @@ toolchain go1.22.4
 
 require (
 	github.com/caddyserver/caddy/v2 v2.8.4
-	github.com/libdns/katapult v1.0.0
+	github.com/deanpcmad/libdnskatapult v1.0.2
 )
 
 require (
@@ -19,7 +19,7 @@ require (
 	github.com/google/pprof v0.0.0-20231212022811-ec68065c825e // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.7 // indirect
-	github.com/libdns/libdns v0.2.2 // indirect
+	github.com/libdns/libdns v1.1.1 // indirect
 	github.com/mholt/acmez/v2 v2.0.1 // indirect
 	github.com/miekg/dns v1.1.59 // indirect
 	github.com/onsi/ginkgo/v2 v2.13.2 // indirect
